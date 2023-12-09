@@ -44,3 +44,24 @@ Requires creating a developer account on the Facebook Developer website, setting
 
 - Navigate to the lib directory to explore the source code.
 - Modify the code according to your project requirements.
+
+### Installation
+
+#### Install Flutter:
+
+Follow the instructions on the [official Flutter installation guide](https://flutter.dev/docs/get-started/install) to set up Flutter on your machine.
+
+#### Install Dependencies:
+
+1. Open a terminal and navigate to the project root directory.
+2. Run `flutter pub get` to install the project dependencies.
+
+### Running the App
+
+1. Connect a device or start an emulator.
+2. Run `flutter run` in the terminal to build and launch the app on your device/emulator.
+
+### Exploring the Code
+
+1. Dive into the `lib` directory to explore the source code.
+2. Make any necessary adjustments based on your project requirements.
