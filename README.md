@@ -1,107 +1,34 @@
-# Renewal Mate
+# Renewal Mate - Deadline Management Application
 
-Renewal Mate is an Android application designed to streamline deadline management for subscriptions, warranties, and important dates. This app provides a centralized platform to store and receive reminders for various deadlines while incorporating secure authentication methods.
 
-## Project Overview
 
-- **Project Name:** Renewal Mate
-- **Author:** [B. Sashank Reddy]
-- **Student ID:** [IMT2020542]
+## Project Scope
 
-## Project Description
-
-Renewal Mate serves as a comprehensive Android app prioritizing user privacy and efficient deadline management. Key functionalities include user registration/authentication, deadline entry management, and organized reminders. Users can access multiple authentication methods linked to a single account, enhancing flexibility.
-
-## Features
-
-### Authentication
-
-- Email/Password authentication
-- Google OAuth
-- Facebook OAuth
-
-### OAuth Integration
-
-- Firebase Authentication for token-based OAuth with Google and Facebook
-- Secure token exchange mechanisms ensuring data privacy and integrity
-
-### Cross-Authentication
-
-- Link multiple authentication methods to a single account
-- Seamless login via email/password, Gmail, or Facebook
+Renewal Mate is an Android application designed as a smart organizer to manage various deadlines, including subscription renewals and warranty expirations. It consolidates and reminds users of these deadlines, ensuring they never miss essential dates. The app offers secure and straightforward login methods, enabling users to sign in through Google or Facebook accounts via OAuth.
 
 ## Problem Definition
 
-OAuth, or Open Authorization, secures access to user resources on servers without revealing credentials. The OAuth flow involves client registration, authorization requests, consent screens, and token exchange mechanisms.
+In today’s digital landscape, individuals struggle to manage diverse deadlines, leading to issues with subscription renewals, warranty expirations, and other time-sensitive commitments. Managing multiple passwords across different platforms and concerns about insecure login systems raise data security concerns.
 
-## App Screens
+OAuth stands as a solution for secure and seamless authentication across various applications. Its core goal is to enable users to grant limited access to their resources to other applications without revealing their login credentials. This authorization framework ensures secure and standardized authentication and authorization methods, enabling third-party applications to access specific resources for a limited duration.
 
-### Login/Register Screen
+## Project Analysis
 
-- Email/password login and registration
-- Social media login buttons (Google and Facebook)
+### OAuth Setup
 
-### Home Screen
+#### Google OAuth
 
-- Calendar view for date selection
-- Entry creation and viewing options
-- Navigation drawer for app sections
+Setup involves creating a new project in Google Cloud Console, enabling Google Identity Toolkit API, and integrating Google Authentication Provider in Firebase with the obtained Google Web Client ID.
 
-### Deadline Entry Details Screen
+#### Facebook OAuth
 
-- Display of deadline details and metadata
-- Navigation to the home screen
+Requires creating a developer account on the Facebook Developer website, setting up a new app, obtaining the App ID and App Secret, and activating Facebook sign-in in Firebase using the acquired credentials.
 
-### Create Deadline Entry Screen
+### Implementation Environment
 
-- Input fields for deadline details and metadata
-- Save and cancel options
-
-### User Profile Screen
-
-- Display user information and profile picture
-- Buttons to link social media accounts
-- Logout option
-
-## Setting Up OAuth
-
-### Google
-
-- Create a Google Sign-In Project
-- Enable Google Sign-In in the Firebase console
-
-### Facebook
-
-- Create a Facebook app
-- Enable Facebook Sign-In in the Firebase console
-
-## Development Environment
-
-### Tech Stack
-
-- Flutter
-- Dart
-- Firebase (Authentication and Firestore)
-- Facebook API
-
-### IDE
-
-- Visual Studio Code (VSCode)
-
-### Testing Environment
-
-- Android simulator
-
-## Setting Up App
-
-### To set up and run the app:
-
-1. Install Flutter by following the official installation guide.
-2. Install dependencies by running `flutter pub get` in the terminal.
-3. Run the app using `flutter run` in the terminal after connecting a device or starting an emulator.
-
-### Explore the Code
-
-- Navigate to the lib directory to explore the source code.
-- Modify the code according to your project requirements.
+- **Flutter:** Used as a user-friendly framework for building cross-platform mobile applications.
+- **Firebase:** Utilized as the backend database for the Flutter app, providing tools for databases, authentication, hosting, and analytics.
+- **VS Code:** Integrated development environment (IDE) with extensive language support and extensions.
+- **Android Studio and Emulators:** IDE tailored for Android app development, equipped with code editing, debugging tools, and an integrated emulator for testing.
+- **USB Debugging:** Allows direct communication between a computer and an Android device for development purposes.
 
