@@ -5,7 +5,7 @@ Renewal Mate is an Android application designed to streamline deadline managemen
 ## Project Overview
 
 - **Project Name:** Renewal Mate
-- **Author:** [B.Sashank Reddy]
+- **Author:** [B. Sashank Reddy]
 - **Student ID:** [IMT2020542]
 
 ## Project Description
