@@ -1,52 +1,107 @@
 # Renewal Mate
 
-Renewal Mate is a smart organizer application designed to streamline deadline management for subscriptions, warranties, and important dates. The app securely stores their deadlines, offering convenient authentication methods via OAuth.
+Renewal Mate is an Android application designed to streamline deadline management for subscriptions, warranties, and important dates. This app provides a centralized platform to store and receive reminders for various deadlines while incorporating secure authentication methods.
 
-## Problem Statement
+## Project Overview
 
-In today's digital age, managing various deadlines proves challenging. Renewal Mate addresses these issues by centralizing deadlines, enhancing security through OAuth authentication, and providing seamless user experiences.
+- **Project Name:** Renewal Mate
+- **Author:** [B.Sashank Reddy]
+- **Student ID:** [IMT2020542]
 
-## OAuth Implementation
+## Project Description
 
-The app integrates OAuth, allowing secure and standardized authentication. It enables users to grant limited access to their resources without revealing login credentials, ensuring data security and controlled access.
+Renewal Mate serves as a comprehensive Android app prioritizing user privacy and efficient deadline management. Key functionalities include user registration/authentication, deadline entry management, and organized reminders. Users can access multiple authentication methods linked to a single account, enhancing flexibility.
 
 ## Features
 
-### Sign Up Page
-Allows users to register securely by entering necessary details while ensuring valid email formats and password criteria.
+### Authentication
 
-### Sign In Page
-Enables login through email and password or via Google or Facebook OAuth methods, providing a choice for secure and simplified authentication.
+- Email/Password authentication
+- Google OAuth
+- Facebook OAuth
 
-### Home Page
-Displays subscription management features, offering sections to add new deadlines, view today's reminders, and upcoming deadlines.
+### OAuth Integration
 
-### Add Deadline Page
-Facilitates easy input of deadline details, including type, name, and expiry date, allowing users to manage and input new deadlines effortlessly.
+- Firebase Authentication for token-based OAuth with Google and Facebook
+- Secure token exchange mechanisms ensuring data privacy and integrity
 
-## Project Structure
+### Cross-Authentication
 
-The project consists of various screens, including SignUpPage, SignInPage, HomePage, and AddDeadline, providing intuitive interfaces for different functionalities.
+- Link multiple authentication methods to a single account
+- Seamless login via email/password, Gmail, or Facebook
 
-## OAuth Setup
+## Problem Definition
 
-For Google and Facebook OAuth setup, follow the provided steps outlined in the project documentation within the OAuth Setup section.
+OAuth, or Open Authorization, secures access to user resources on servers without revealing credentials. The OAuth flow involves client registration, authorization requests, consent screens, and token exchange mechanisms.
 
-## Getting Started
+## App Screens
 
-1. Clone the repository.
-2. Install dependencies using `flutter pub get`.
-3. Run the application using `flutter run`.
+### Login/Register Screen
 
-## Contributing
+- Email/password login and registration
+- Social media login buttons (Google and Facebook)
 
-Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
+### Home Screen
 
-## Authors
+- Calendar view for date selection
+- Entry creation and viewing options
+- Navigation drawer for app sections
 
-[List authors or contributors here]
+### Deadline Entry Details Screen
 
-## License
+- Display of deadline details and metadata
+- Navigation to the home screen
 
-This project is licensed under [License Name]. See the LICENSE.md file for details.
+### Create Deadline Entry Screen
+
+- Input fields for deadline details and metadata
+- Save and cancel options
+
+### User Profile Screen
+
+- Display user information and profile picture
+- Buttons to link social media accounts
+- Logout option
+
+## Setting Up OAuth
+
+### Google
+
+- Create a Google Sign-In Project
+- Enable Google Sign-In in the Firebase console
+
+### Facebook
+
+- Create a Facebook app
+- Enable Facebook Sign-In in the Firebase console
+
+## Development Environment
+
+### Tech Stack
+
+- Flutter
+- Dart
+- Firebase (Authentication and Firestore)
+- Facebook API
+
+### IDE
+
+- Visual Studio Code (VSCode)
+
+### Testing Environment
+
+- Android simulator
+
+## Setting Up App
+
+### To set up and run the app:
+
+1. Install Flutter by following the official installation guide.
+2. Install dependencies by running `flutter pub get` in the terminal.
+3. Run the app using `flutter run` in the terminal after connecting a device or starting an emulator.
+
+### Explore the Code
+
+- Navigate to the lib directory to explore the source code.
+- Modify the code according to your project requirements.
 
