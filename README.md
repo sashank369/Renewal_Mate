@@ -32,3 +32,15 @@ Requires creating a developer account on the Facebook Developer website, setting
 - **Android Studio and Emulators:** IDE tailored for Android app development, equipped with code editing, debugging tools, and an integrated emulator for testing.
 - **USB Debugging:** Allows direct communication between a computer and an Android device for development purposes.
 
+## Setting Up App
+
+### To set up and run the app:
+
+1. Install Flutter by following the official installation guide.
+2. Install dependencies by running `flutter pub get` in the terminal.
+3. Run the app using `flutter run` in the terminal after connecting a device or starting an emulator.
+
+### Explore the Code
+
+- Navigate to the lib directory to explore the source code.
+- Modify the code according to your project requirements.
