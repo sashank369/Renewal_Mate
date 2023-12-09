@@ -1,6 +1,6 @@
 # Renewal Mate
 
-Renewal Mate is a smart organizer application designed to streamline deadline management for subscriptions, warranties, and important dates. The app securely stores and notifies users about their deadlines, offering convenient authentication methods via OAuth.
+Renewal Mate is a smart organizer application designed to streamline deadline management for subscriptions, warranties, and important dates. The app securely stores their deadlines, offering convenient authentication methods via OAuth.
 
 ## Problem Statement
 
