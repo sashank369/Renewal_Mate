@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<resources>
+    <string name="facebook_app_id">668403478829522</string>
+    <string name="fb_login_protocol_scheme">fb668403478829522</string>
+    <string name="facebook_client_token">29da99c742cc6e5cadb049675dbb008e</string>
+    <string name="app_name">"renewalmate_sdn"</string>
+
+</resources>

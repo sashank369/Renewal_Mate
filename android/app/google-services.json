@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "442459082903",
+    "project_id": "renewal-mate",
+    "storage_bucket": "renewal-mate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442459082903:android:5c0adcbd2742aaa31ed9d2",
+        "android_client_info": {
+          "package_name": "com.example.renewal_mate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzRKhiXIe3ZhY57XKQ61jPPpPOFgTQNLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
